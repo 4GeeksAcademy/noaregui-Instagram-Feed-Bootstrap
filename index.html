@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO 2 4GEEKS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.pexels.com/es-es/">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">                
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-flex align-items-center">
+                    <i class="fa-brands fa-instagram" style="align-items: center;"></i>
+                    <span class="nav-link" style="margin-left: 10px;">Instagram</span>
+                </a>               
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-success" id="createPostButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <i class="fa-solid fa-gear" style="color: #FFFFFF; margin-left: 1px;"></i>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear" style="color: #FFFFFF;"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: red;">Log out</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>       
+      </nav>
+      
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="link.html"><i class="fa-solid fa-table-cells" style="color: #C0C0C0;"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Versión en cambio.html"><i class="fa-solid fa-square" style="color: #C0C0C0;"></i></a>
+        </li>
+      </ul>
+    
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p style="margin-bottom: 0;">Caption:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-11" style="margin: auto; margin-bottom: 10px;">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="margin-bottom: 10px;">Add the caption of your post here</textarea>
+                    <button type="button" class="btn btn-light" style="border: 1px solid #CED4DA;"> 
+                        <i class="fa-solid fa-camera" style="color: #000000;"></i> 
+                    </button>
+                    <button type="button" class="btn btn-light" style="border: 1px solid #CED4DA;"> 
+                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    </button>                                          
+                </div>                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" style="background-color: #157347;">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-img">
+        <div class="row justify-content-center" style="margin: 0; width: 100%; object-fit: cover; overflow: hidden;">
+          <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+              <img src="https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="pingüino" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+          <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+              <img src="https://images.pexels.com/photos/14665715/pexels-photo-14665715.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="leon" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+          <div class="col-md-3" style="padding: 0; margin: 0 0 10px 0;">
+              <img src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="loro" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+        </div>
+
+      <div class="row justify-content-center" style="margin: 0; width: 100%; object-fit: cover; overflow: hidden;">
+        <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+            <img src="https://images.pexels.com/photos/234054/pexels-photo-234054.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="mono" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+            <img src="https://images.pexels.com/photos/1125979/pexels-photo-1125979.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="pez" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="col-md-3" style="padding: 0; margin: 0 0 10px 0;">
+            <img src="https://images.pexels.com/photos/750539/pexels-photo-750539.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="cebra" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+      </div>
+
+      <div class="row justify-content-center" style="margin: 0; width: 100%; object-fit: cover; overflow: hidden;">
+        <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+            <img src="https://images.pexels.com/photos/802112/pexels-photo-802112.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="mono" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="col-md-3" style="padding: 0; margin: 0 10px 10px 0;">
+            <img src="https://images.pexels.com/photos/158258/squirrel-water-mirroring-nager-158258.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="pez" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="col-md-3" style="padding: 0; margin: 0 0 10px 0;">
+            <img src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="cebra" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+      </div>
+    </div>
+    
+    <script>document.getElementById('createPostButton').addEventListener('click', function() {var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));myModal.show();});</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        
+  </body>
